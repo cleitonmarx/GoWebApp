@@ -6,8 +6,9 @@ package httptreemux
 
 import (
 	"fmt"
-	"github.com/cleitonmarx/GoWebApp/Godeps/_workspace/src/github.com/dimfeld/httppath"
 	"net/http"
+
+	"github.com/dimfeld/httppath"
 )
 
 // The params argument contains the parameters parsed from wildcards and catch-alls in the URL.
