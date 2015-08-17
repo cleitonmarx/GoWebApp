@@ -13,7 +13,7 @@
 		{
 			"Name" : "STAGING",
 			"HTTPServer": {
-				"Address":"192.168.59.3",
+				"Address":"",
 				"Port":3333,
 				"RequestTimeout":30
 			}
@@ -22,7 +22,7 @@
 		{
 			"Name" : "PRODUCTION",
 			"HTTPServer": {
-				"Address":"192.168.59.3",
+				"Address":"",
 				"Port":3333,
 				"RequestTimeout":30
 			}
