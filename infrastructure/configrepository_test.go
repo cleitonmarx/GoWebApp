@@ -8,7 +8,7 @@ import (
 )
 
 func TestGetSystemConfiguration_WithValidFilePath_NotEmptyConfig(t *testing.T) {
-	configRepository := NewConfigFileRepository("../gowebappb.json")
+	configRepository := NewConfigFileRepository("../gowebapp.json")
 	configuration, err := configRepository.GetSystemConfiguration()
 	if err != nil {
 		t.Error(err)
