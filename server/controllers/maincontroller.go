@@ -14,7 +14,7 @@ func (mc *MainController) GetHandler(responseWriter http.ResponseWriter, request
 }
 func (mc *MainController) GetVersionHandler(responseWriter http.ResponseWriter, request *http.Request, parameters map[string]string) {
 	responseWriter.Header().Add("Content-Type", "application/json")
-	fmt.Fprintf(responseWriter, `{"status":200, "version": "1.0.3"}`)
+	fmt.Fprintf(responseWriter, `{"status":200, "version": "1.0.4"}`)
 }
 
 func NewMainController() MainController {
